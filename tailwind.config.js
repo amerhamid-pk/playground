@@ -5,6 +5,11 @@ module.exports = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  safelist: [
+    "rounded-t-xl",
+    "rounded-b-xl",
+    "rounded-xl",
+  ],
   theme: {
     extend: {
       colors: {
